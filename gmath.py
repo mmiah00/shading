@@ -69,6 +69,8 @@ def limit_color(color):
             color[i] = 255
         if color[i] < 0:
             color[i] = 0
+        if type (color[i]) == float:
+            color[i] = int (color[i])
     return color
 #vector functions
 #normalize vetor, should modify the parameter
