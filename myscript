@@ -1,164 +1,29 @@
 push
 move
-125 200 0
+250 250 0
+rotate
+x 45
 rotate
 y 30
 rotate
-x 60
-rotate
-z -20
-scale
-0.5 0.5 0.5
+z -45
 push
 sphere
-0 0 0 25
-sphere
-0 0 50 25
-sphere
-0 0 100 25
-sphere
-0 0 150 25
-sphere
-0 0 200 25
-##
-sphere
-50 0 0 25
-sphere
-50 0 100 25
-sphere
-50 0 200 25
-##
-sphere
-100 0 0 25
-sphere
-100 0 50 25
-sphere
-100 0 100 25
-sphere
-100 0 150 25
-sphere
-100 0 200 25
-##
-sphere
--50 0 0 25
-sphere
--50 0 100 25
-sphere
--50 0 200 25
-##
-sphere
--100 0 0 25
-sphere
--100 0 50 25
-sphere
--100 0 100 25
-sphere
--100 0 150 25
-sphere
--100 0 200 25
-##
-push
-#################################
-move
--100 50 0
-sphere
-0 0 0 25
-sphere
-0 50 0 25
-sphere
-0 100 0 25
-sphere
-0 150 0 25
-##
-sphere
-50 50 0 25
-sphere
-50 150 0 25
-##
-sphere
-100 0 0 25
-sphere
-100 50 0 25
-sphere
-100 100 0 25
-sphere
-100 150 0 25
-##
-sphere
-150 50 0 25
-sphere
-150 150 0 25
-##
-sphere
-200 0 0 25
-sphere
-200 50 0 25
-sphere
-200 100 0 25
-sphere
-200 150 0 25
-push
-######################
-move
-0 150 50
-##
-sphere
-0 0 0 25
-sphere
-0 -100 0 25
-sphere
-100 0 0 25
-sphere
-200 0 0 25
-##
-sphere
-0 0 50 25
-sphere
-0 -50 50 25
-sphere
-0 -100 50 25
-sphere
-0 -150 50 25
-sphere
-50 0 50 25
-sphere
-100 0 50 25
-sphere
-150 0 50 25
-sphere
-200 0 50 25
-##
-sphere
-0 0 100 25
-sphere
-0 -100 100 25
-sphere
-100 0 100 25
-sphere
-200 0 100 25
-##
-sphere
-0 0 150 25
-sphere
-0 -50 150 25
-sphere
-0 -100 150 25
-sphere
-0 -150 150 25
-sphere
-50 0 150 25
-sphere
-100 0 150 25
-sphere
-150 0 150 25
-sphere
-200 0 150 25
-push
-####################
-move
-50 -50 150
-sphere
-0 0 0 25
+0 0 0 100
+torus
+0 0 0 2.5 150
+torus
+0 0 0 2.5 155
+torus
+0 0 0 2.5 160
+torus
+0 0 0 2.5 165
+torus
+0 0 0 2.5 170
+torus
+0 0 0 2.5 175
+torus
+0 0 0 2.5 180
 display
 save
-cube.png
+saturn.png
